@@ -1,0 +1,15 @@
+
+	\code?latex4ei_thesis:? layout with TUM colors\\
+	\code?scientific:? useful scientific macros
+
+	\begin{tabular}{ll@{\qquad\quad}ll}
+	$\diff x$ & \code#\diff x# & $\N, \R, \C$ & \code#\N, \R, \C# \\
+	$\vec x$ & \code?\vec x? & $\vect{ x_1 \\ x_2 }$ & \code#\vect{ x_1 \\ x_2 }#\\[2em]
+	$\ma A$ & \code#\ma A# & $\mat{ 1 & 2 \\ 3 & 4}$ & \code#\mat{ 1 & 2 \\ 3 & 4}#\\[2em]
+	$\FT$ & \code#\FT# & $\DTFT$ & \code#\DTFT#\\
+	$\LT$ & \code#\LT# & $\ZT$ & \code#\ZT#\\
+	\end{tabular}
+	% norm{} \unitof{}
+
+	Additional function names (upright, correct spacing):\\ \code?\const, \sinc, \grad, \rot, \div, \tri, \rect, \erf?
+^^E^^L 

@@ -1,0 +1,9 @@
+
+	\subsection{Justification}
+	\begin{tabular}{@{}lll@{}}
+	\textsc{Environment}  &  \textsc{Declaration} & \textsc{Other} \\
+	\code!\begin{center}!      & \code!\centering! & \textit{text} \code?\vfill? \textit{text}\\
+	\code!\begin{flushleft}!  & \code!\raggedright! & \textit{text} \code?\hfill? \textit{text}\\
+	\code!\begin{flushright}! & \code!\raggedleft!  \\
+	\end{tabular}
+^^E^^L 

@@ -1,0 +1,5 @@
+
+	\subsection{Table of Content, List of \ldots}
+	\code!\tableofcontents! \qquad \code!\listoftables! \qquad \code!\listoffigures!\\
+	\code?\printglossaries? (needs \code?glossaries? package)
+^^E^^L 

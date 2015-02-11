@@ -1,0 +1,17 @@
+
+	\subsection{Font size}
+	\begin{tabular}{ll}
+	\code!\tiny!                  &  \tiny{tiny} \\
+	\code!\scriptsize!            &  \scriptsize{scriptsize} \\
+	\code!\footnotesize!          &  \footnotesize{footnotesize} \\
+	\code!\small!                 &  \small{small} \\
+	\code!\normalsize!            &  \normalsize{normalsize} \\
+	\code!\large!                 &  \large{large}
+	\end{tabular} \qquad
+	\begin{tabular}{ll}
+	\code!\Large!                 &  \Large{Large} \\  % Tab hack for new column
+	\code!\LARGE!                 &  \LARGE{LARGE} \\
+	\code!\huge!                  &  \huge{huge} \\
+	\code!\Huge!                  &  \Huge{Huge}
+	\end{tabular}
+^^E^^L 

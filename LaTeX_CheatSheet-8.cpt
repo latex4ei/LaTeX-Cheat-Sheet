@@ -1,0 +1,8 @@
+
+	\subsection{Glossar and Nomenclature with \code?glossaries?}
+	Load \code?\usepackage[acronym]{glossaries}?\\
+	%Setup: \code?\makeglossaries?
+	Define: \code?\newacronym{?\textit{label}\code?}{?\textit{ABB}\code?}{?written-out\code?}?\\
+	\code?\newglossaryentry{?\textit{label}\code?}{name=..., description=...}?\\
+	Use: \code?\gls{?\textit{label}\code?}?, \code?\glspl{?\textit{label}\code?}?
+^^E^^L 

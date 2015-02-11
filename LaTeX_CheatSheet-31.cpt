@@ -1,0 +1,16 @@
+
+\subsection{Source Code Listings with \code?listings?}
+Options: \code?\lstset{basicstyle=\tt, language=C}?\\
+Languages: C,C++,Java,Matlab,Python,HTML,XML,bash,...\\[1em]
+Environment: \code?\begin{lstlisting}? \textit{code} \code?\end{lstlisting}?\\
+Inline: \code+\lstinline?+\textit{code}\code+?+\\
+\lstset{language=Java}
+\begin{lstlisting}
+\begin{lstlisting}
+int i=0;
+for(i = 0; i < 10; i++){
+	printf("Line %i", i);
+}
+\end{ltlisting}		% missing s!
+\end{lstlisting}
+^^E^^L 

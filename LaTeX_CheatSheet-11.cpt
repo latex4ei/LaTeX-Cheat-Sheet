@@ -1,0 +1,12 @@
+
+	\subsection{Colors with \code?xcolor?}
+\begin{lstlisting}
+\usepackage{xcolor}
+\definecolor{tum_blue}{RGB}{0, 115, 207}
+\colorlet{col_section}{tum_blue}
+\end{lstlisting}
+Predefined colors:\\
+\texttt{white, \textcolor{gray}{gray}, black, \textcolor{red}{red}, \textcolor{green}{green}, \textcolor{blue}{blue}, \textcolor{cyan}{cyan}, \textcolor{magenta}{magenta}, \textcolor{yellow}{yellow}}\\
+Fade a color with \code?!value? between 0 and 100, e.g. \code?\color{gray!70}?\\
+Usage in Text: \code?\textcolor{red}{text}? or \code?{\color{red}text}?
+^^E^^L 

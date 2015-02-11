@@ -1,0 +1,5 @@
+
+	\subsection{Language Settings with \code?babel?}
+	\code?\usepackage[ngerman, english]{babel}? \qquad (last language default)\\
+	\code?\selectlanguage{?\textit{language}\code?}? \qquad \code?\foreignlanguage{?\textit{language}\code?}{?\textit{text}\code!}!
+^^E^^L 

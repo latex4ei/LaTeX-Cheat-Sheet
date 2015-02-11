@@ -1,0 +1,13 @@
+
+	\subsection{Penalties}
+	Penalties are the main values that \TeX tries to minimise when line or page breakes are calculated.\\
+	\begin{tabular}{@{}ll@{}}
+	\code!\linepenalty=10! & breaking a page within a paragraph\\
+	\code!\hyphenpenalty=50! & line breaking at an automatic hyphen\\
+	\code!\binoppenalty=700! & breaking a line at a binary operator\\
+	\code!\relpenalty=500! & breaking a line at a relation\\
+	\code!\clubpenalty=150! & *breaking after first line of a paragraph\\
+	\code!\widowpenalty=150! & *breaking before last line of a paragraph\\
+	\code!\brokenpenalty=100! & page breaking after a hyphenated line\\
+	\end{tabular}
+^^E^^L 

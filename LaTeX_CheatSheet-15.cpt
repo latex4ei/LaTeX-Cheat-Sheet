@@ -1,0 +1,12 @@
+
+\subsection{Lists}
+\code?\begin{itemize}? with bullet \code?\item? \qquad or \code?\item[?\textit{symbol}\code?]?\\
+\code?\begin{enumerate}? with numbered \code?\item?\\
+\code?\begin{description}? with bold \code?\item[word]?
+\begin{lstlisting}
+\begin{enumerate}\itemsep0pt
+	\item First Argument
+	\item Second Argument
+\end{enumerate}
+\end{lstlisting}
+^^E^^L 

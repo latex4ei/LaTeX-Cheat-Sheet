@@ -1,0 +1,14 @@
+
+	\subsection{References with \code?hyperref?}
+	\begin{tabular}{@{}lp{4cm}@{}}
+	\code!\cite{!\textit{key}\code!}! & Cite a reference\\
+	\code!\label{!\textit{marker}\code!}!   &  Set a marker for cross-reference,
+	                          often of the form \code!\label{sec:item}! like \code?\label{fig:diag1}?. \\
+	\code!\ref{!\textit{marker}\code!}!   &  Give section/body number of marker. \\
+	\code!\pageref{!\textit{marker}\code!}! &  Give page number of marker. \\
+	\code!\footnote{!\textit{text}\code!}!  &  Print footnote at bottom of page. \\
+	\code?\url{?\textit{url}\code?}? & Creates click-able web-adress.\\
+	\code?\href[?\textit{options}\code?]{?\textit{url}\code?}{?\textit{text}\code?}? & click-able link\\
+	\code?\hyperref[?\textit{marker}\code?]{?\textit{text}\code?}? & click-able ref\\
+	\end{tabular}
+^^E^^L 

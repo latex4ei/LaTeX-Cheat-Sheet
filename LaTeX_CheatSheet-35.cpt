@@ -1,0 +1,12 @@
+
+	\subsection{Spacing}
+	\setlength{\tabcolsep}{6pt}
+	\begin{tabular}{@{}ll|ll|ll|ll}
+		\code?a\!b? & a\!b & \code?a\,b? & a\,b & \code?a\;b? & a\;b & \code?a\quad b? & a\quad b\\
+		\code?ab? & ab & \code?a\>b? & a$\>$b & \code?a\ b? & a\ b & \code?a\qquad b? & a\qquad b\\
+	\end{tabular}
+
+	\code?\hspace{?\textit{length}\code?}?, \code?\vspace{?\textit{length}\code?}? \qquad *: even at line start\\
+	\code?\phantom{?\textit{text}\code?}?, \code?\vphantom{?\textit{text}\code?}?\\
+	Protected space \code?~?
+^^E^^L 

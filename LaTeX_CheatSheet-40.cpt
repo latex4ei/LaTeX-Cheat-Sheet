@@ -1,0 +1,9 @@
+
+	\subsection{Plain \TeX}
+	These plain \TeX~commands should be used carfully\\
+	\begin{tabular}{lll}
+	Fonts & \code?\rm, \sf, \sc, \sl, \it, \tt?\\
+	Definitions & \code?\def\newcmd{?texcode\code?}, \let\newcmd\cmd?\\
+	If & \code?\ifnum\counter<10? true text \code?\else? false text \code?\fi?\\
+	\end{tabular}
+^^E^^L 

@@ -1,0 +1,8 @@
+
+	Textstyle: \code!$x^2 + 4$!, $x^2 + 4$ as part of the text.\\
+	Disyplaystyle: \code!\begin{equation} x^2 + 4 \end{equation}!\\
+	\begin{equation}
+			\lambda := \lim\limits_{x_1 \rightarrow \infty}    \int\limits_{x_0}^{x_1} \frac{ f\left(\frac{t}{2}\right) }{ \sqrt[n]{t^2 + \sin^2(t) } } \; \mathrm dt \stackrel{!}\le 1
+	\end{equation}
+	for numbered equations. use the * variant for unnumbered equations.
+^^E^^L 

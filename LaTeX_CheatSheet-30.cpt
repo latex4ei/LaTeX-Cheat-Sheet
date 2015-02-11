@@ -1,0 +1,21 @@
+
+\subsection{Tables}
+\begin{lstlisting}
+\begin{table}
+	\centering
+	\begin{tabular}{ll}
+		\textsc{Name} & \textsc{Desc.}\\ \hline
+		test1 & is no good idea &\\
+		bla2 & even worse &\\
+	\end{tabular}
+	\caption{My first Table}
+	\label{tab:example1}
+\end{table}
+\end{lstlisting}
+
+Usage: \code?\begin{tabular}[htbp]{@{}lrc|p{3cm}}?\\
+Column distance: \code?\setlength{\tabcolsep}{5pt}?\\
+Adjust row distance: \code?\renewcommand{\arraystretch}{1.5}?\\			%\tabularnewline
+Partial lines: \code?\cline{2-3}? instead of \code?\hline?\\
+Additional packages: \code?longtable, booktabs, colortbl?
+^^E^^L 

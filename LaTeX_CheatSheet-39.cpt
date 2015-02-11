@@ -1,0 +1,14 @@
+
+	\begin{tabular}{ll}
+		\code?\usepackage[?options\code?]{?package\code?}? & load package\\
+		\code?\newcommand[?paranum\code?]{\newcmd}{?tex \#1\code?}? & define command\\
+		\code?\renewcommand{\cmd}{? latex \#1,\#2 \code?}? & alter command\\
+		\code?\let\cmdcopy\cmd? & copy a command\\
+	\end{tabular}
+
+Read this document CTAN\\
+
+Some important variables:\\
+Counters: \code?\thepage, \thesection, \thefigure?\\
+Lengths: \code?\textwidth, \parindent, \parskip?\\
+^^E^^L 

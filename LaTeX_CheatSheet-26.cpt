@@ -1,0 +1,17 @@
+
+	\subsection{Arrows}
+	Every combination of left,right,up,down with arrow(s)\\
+	\begin{tabular}{@{}llll}
+	$\mapsto$ & \code?\mapsto? & $\leadsto$ & \code?\leadsto?\\
+	$\rightarrow$ & \code?\rightarrow? & $\Rightarrow$ & \code?\Rightarrow?\\
+	$\longrightarrow$ & \code?\longrightarrow? & $\Longrightarrow$ & \code?\Longrightarrow?\\
+	$\leftarrow$ & \code?\leftarrow? & $\Leftarrow$ & \code?\Leftarrow?\\
+	$\longleftarrow$ & \code?\longleftarrow? & $\Longleftarrow$ & \code?\Longleftarrow?\\
+	$\uparrow$ & \code?\uparrow? & $\Uparrow$ & \code?\Uparrow?\\
+	$\downarrow$ & \code?\downarrow? & $\Downarrow$ & \code?\Downarrow?\\
+	$\leftrightarrow$ & \code?\leftrightarrow? & $\Leftrightarrow$ & \code?\Leftrightarrow?\\
+	$\leftleftarrows$ & \code?\leftleftarrows? & $\rightrightarrows$ & \code?\rightrightarrows?\\
+	$\leftrightarrows$ & \code?\leftrightarrows? & $\rightleftarrows$ & \code?\rightleftarrows?\\
+	$\leftrightharpoons$ & \code?\leftrightharpoons? & $\rightleftharpoons$ & \code?\rightleftharpoons?\\
+	\end{tabular}
+^^E^^L 
