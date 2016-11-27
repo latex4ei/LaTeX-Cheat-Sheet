@@ -1,9 +1,0 @@
-
-	\subsection{Header and Footer with \code{fancyhdr}}
-\begin{lstlisting}
-\usepackage{fancyhdr}
-\pagestyle{fancy}		% use fancyhdr pagestyle
-\fancyhf{}					% clear header and footer
-\fancyhead[RE]{}    % even page right header
-\end{lstlisting}
-^^E^^L 

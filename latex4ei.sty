@@ -1,0 +1,191 @@
+% Layout,	Macros für LaTeX4EI							Stand 04.04.13
+% Erstellt von Emanuel Regnath, Martin Zellner
+%
+% Lizenz: Dieses package darf nur für Dokumente für LaTeX4EI verwendet werden!
+% Bei anderem Verwendungszweck bitte Erlaubnis einholen: info@latex4ei.de
+% © 2013, LaTeX4EI
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{latex4ei}[2013/05/06 Macros for LaTeX4EI]
+
+
+\RequirePackage{xifthen}				% If Then Else Anweisungen
+
+
+% .:: Eigenschaften setzen 
+% ======================================================================
+
+% Einrückung bei itemize verkleinern:
+\setlength{\itemindent}{0em}
+\setlength\leftmargini{1.8em}
+\setlength\itemsep{0em}
+
+%Abstand zwischen Absätzen = Abstand den eine neue Zeile im Quellcode erzeugt
+\setlength{\parskip}{0mm} 		
+
+
+
+% .:: Formatierungen
+% ======================================================================
+\newcommand{\ABB}[1]{\textsc{#1}}				% Abkürzungen
+\newcommand{\code}[1]{\verb+#1+}				% Quellcode
+\newcommand{\Fbox}[1]{\fbox{\strut#1}}			% Gleich hohe Boxen
+
+
+% .:: Eigene Befehle und Abkürzungen
+% ======================================================================
+
+%\let\oldfrac = \frac
+
+% Eigene Bruchdarstellung:
+%\renewcommand{\frac}[3][]{%
+%\ifthenelse{\isempty{#1}}%
+%	{\oldfrac{#2}{#3}}
+%	{\genfrac{}{}{}{}{\raisebox{#1}[\height+0.1em][\depth]{$\scriptstyle #2$}}{\raisebox{-#1}[\height][\depth + 0.2em]{$\scriptstyle #3$}}}
+%}
+
+
+
+
+% Überschreibungen
+\renewcommand{\vec}[1]{\ensuremath{\underline{\boldsymbol {#1}}}}								% Vektor fett und unterstrichen
+\renewcommand{\emph}[1]{\textsl{#1}}															% Hervorhebungen fett
+
+% Dickere Ableitungspunkte
+\renewcommand*{\dot}[1]{\accentset{\mbox{\textrm{\large\bfseries .}} }{#1}}						% Dicker Ableitungspunkt
+\renewcommand*{\ddot}[1]{\accentset{\mbox{\textrm{\large\bfseries .\hspace{-0.25ex}.}}}{#1}}	% Dicker Doppelableitungspunkt
+\renewcommand*{\dddot}[1]{\accentset{\mbox{$\overset{\textrm{\large\bfseries .}}{\textrm{\large\bfseries.\hspace{-0.25ex}.}}$}}{#1}}	
+
+
+% Abkürzungen für Symbole
+\providecommand{\ul}[1]{\ensuremath{\underline{#1}}}						% Underline
+\providecommand{\ol}[1]{\ensuremath{\overline{#1}}}							% Overline
+\providecommand{\bs}[1]{\ensuremath{\boldsymbol{#1}}}						% bold and italic in mathmode
+\providecommand{\Ra}{\ensuremath{\Rightarrow}}								% Rightarrow
+\providecommand{\ra}{\ensuremath{\rightarrow}} 								% rightarrow
+\providecommand{\lra}{\ensuremath{\longrightarrow}} 						% Longrightarrow
+\providecommand{\upa}{\ensuremath{\uparrow}} 
+\providecommand{\downa}{\ensuremath{\downarrow}}
+\providecommand{\bdot}{\ensuremath{\boldsymbol \cdot}} 						% Dicker Punkt für Skalarprodukt
+\providecommand{\svdots}{\ensuremath{\olddot :}}							% small vertical dots
+\providecommand{\shdots}{\ensuremath{\!\cdot \!\cdot\!\cdot\!}}				% small horizontal dots
+
+
+
+
+
+% Eigene Tabellenlinien
+\def\trule{\noalign{\vspace{1pt}\hrule\hrule\vspace{2pt}}}					% top rule
+\def\mrule{\noalign{\vspace{1pt}\hrule\vspace{2pt}}}						% middle rule
+\def\brule{\noalign{\vspace{2pt}\hrule\hrule\vspace{1pt}}}					% bottom rule
+
+% Farbige Tabellenlinien
+\def\ctrule{\noalign{{\color{tablecolor}\hrule\hrule}\vspace{2pt}}}					% colored top rule
+\def\cmrule{\noalign{\vspace{1pt}{\color{tablecolor}\hrule}\vspace{2pt}}}			% colored middle rule
+\def\cbrule{\noalign{\vspace{2pt}{\color{tablecolor}\hrule\hrule}}}					% colored bottom rule
+
+
+
+% .:: Farbige Strukturierungselemente wie Boxen
+% ======================================================================
+
+
+% Note: The following color definitions are copied 
+% from the official TUM Styleguide
+
+% the tum logo color
+\definecolor{col_tum_logo}{RGB}{0, 101, 189}		% Pantone 300
+
+% additional blue colors
+\definecolor{tum_blue_dark2}{RGB}{0, 51, 89}		% Pantone 540
+\definecolor{tum_blue_dark}{RGB}{0, 82, 147}		% Pantone 301
+\definecolor{tum_blue}{RGB}{0, 115, 207}			% Pantone 285
+\definecolor{tum_blue_light}{RGB}{100, 160, 200}	% Pantone 542
+\definecolor{tum_blue_light2}{RGB}{152, 198, 234}	% Pantone 283
+
+% emphasize colors
+\definecolor{tum_green}{RGB}{162, 173, 0}			% Pantone 383
+\definecolor{tum_orange}{RGB}{227, 114, 34}			% Pantone 158
+\definecolor{tum_elfenbein}{RGB}{218, 215, 203}		% Pantone 7527
+
+% gray colors
+\definecolor{tum_gray_dark}{RGB}{88, 88, 90}
+\definecolor{tum_gray}{RGB}{156, 157, 159}
+\definecolor{tum_gray_light}{RGB}{217, 218, 219}
+
+
+
+% Own colors 
+\definecolor{lightblue}{RGB}{235,235,255}
+\definecolor{lightred}{RGB}{255,240,240}
+\definecolor{lightgreen}{RGB}{240,255,240}
+\definecolor{lightyellow}{RGB}{255,255,240}
+\definecolor{lightblue}{RGB}{220, 240, 247}
+\definecolor{darkblue}{RGB}{23,110,138}
+\definecolor{notsodarkblue}{RGB}{119,193,214}
+\definecolor{tablecolor}{RGB}{0,128,0}
+
+% Für die Überschriften und Linien
+\definecolor{lila}{RGB}{128,0,128}
+\definecolor{latex4eiblau}{RGB}{86,124,136}
+\definecolor{latex4eigruen}{RGB}{150,163,110}
+
+% Farbige Boxen
+\providecommand{\topicbox}[2]{
+\fcolorbox{blue}{lightblue}{\color{blue}\parbox{\columnwidth-2\fboxsep}{{\large \textbf{ #1}}\\\hspace*{-\fboxsep}\rule[2pt]{\columnwidth}{0.5pt}\\ \color{black}#2}}}
+
+\providecommand{\emphbox}[1]{{\fboxrule1pt\fcolorbox{red}{lightyellow}{\parbox{\columnwidth-2\fboxsep-2pt}{\centering #1}}}}
+\providecommand{\symbolbox}[1]{{\fboxrule1pt\fcolorbox{orange}{lightyellow}{\parbox{\columnwidth-2\fboxsep-2pt}{#1}}}}
+\providecommand{\tablebox}[1]{{\fboxsep0pt\colorbox{lightgreen}{\parbox{\columnwidth}{#1}}}}
+\providecommand{\sectionbox}[1]{{\fboxsep0.5em\hspace*{-1.5\fboxsep}
+\fcolorbox{gray}{gray!3}{%
+\parbox{\columnwidth}{%
+	\titlespacing{\subsection}{0em}{0.2em}{0.2em}%
+	\titlespacing{\subsubsection}{0em}{0.2em}{0.2em}%
+#1
+}}}}
+
+% blaue Rezeptebox
+\providecommand{\cookbox}[2]{{\fboxsep0pt\colorbox{lightblue}{\parbox{\columnwidth}{
+{\color{darkblue}\hrule\hrule}\vspace{2pt}
+  \begin{center}
+\textbf{#1}
+\end{center}
+\vspace{3pt}{\color{notsodarkblue}\hrule\hrule}
+\vspace{3pt}
+\begin{itemize}
+#2
+\end{itemize}
+\vspace{2pt}{\color{darkblue}\hrule\hrule}
+}}}}
+
+% blaue Rezeptebox als Liste
+\providecommand{\cooknumbox}[2]{{\fboxsep0pt\colorbox{lightblue}{\parbox{\columnwidth}{
+{\color{darkblue}\hrule\hrule}\vspace{2pt}
+  \begin{center}
+\textbf{#1}
+\end{center}
+\vspace{3pt}{\color{notsodarkblue}\hrule\hrule}
+\vspace{3pt}
+\begin{enumerate}
+#2
+\end{enumerate}
+\vspace{2pt}{\color{darkblue}\hrule\hrule}
+}}}}
+
+
+
+% BETA
+
+\providecommand{\sectionboxnew}[1]{
+	\begin{breakbox}
+
+		\titlespacing{\subsection}{0em}{0.2em}{0.2em}
+		\titlespacing{\subsubsection}{0em}{0.2em}{0.2em}
+	#1
+
+	\end{breakbox}
+}
+
+
+

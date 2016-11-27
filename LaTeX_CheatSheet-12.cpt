@@ -1,5 +1,0 @@
-
-	\subsection{Title with \code?titlepage?}
-	default: \code!\author{!\textit{text}\code!}!, \code!\title{!\textit{text}\code!}!, \code!\date{\today}!, \qquad \code?\maketitle?\\
-	titlepage: \code?\begin{titlepage}? \textit{text} \code?\end{titlepage}?
-^^E^^L 

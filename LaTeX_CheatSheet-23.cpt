@@ -1,8 +1,0 @@
-
-	\subsection{Important Math functions}
-	\begin{tabular}{@{}llllllllll}
-	$\sum$ & \code?\sum? & $\prod$ & \code?\prod? & $\int$ & \code?\int?\\
-	$\int$ & \code?\int? & $\iint$ & \code?\iint? & $\iiint$ & \code?\iiint? & $\oint$ & \code?\oint?\\
-	$\vec a$ & \code?\vec a? & $\dot a$ & \code?\dot a? & $\ddot a$ & \code?\ddot a? & $\hat a$ & \code?\hat a? \\
-	\end{tabular}
-^^E^^L 

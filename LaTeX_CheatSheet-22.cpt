@@ -1,9 +1,0 @@
-
-	\subsection{Math function names (upright, correct spacing)}
-	\begin{tabular}{@{}llllllll}
-	\code?\sin? & \code?\sinh? & \code?\arcsin? & \code?\csc? & \code?\ln? & \code?\min?\\
-	\code?\cos? & \code?\cosh? & \code?\arccos? & \code?\sec? & \code?\lg? & \code?\max?\\
-	\code?\tan? & \code?\tanh? & \code?\arctan? & \code?\cot? & \code?\log? & \code?\lim?\\
-	\code?\exp? & \code?\det? & \code?\tr? & \code?\dim? & \code?\ker? & \code?\Pr?\\
-	\end{tabular}
-^^E^^L 

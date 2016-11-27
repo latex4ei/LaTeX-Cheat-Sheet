@@ -1,9 +1,0 @@
-
-%Absolute beginners pleas read an introduction to \LaTeX. \\
-You have to include the package mentioned in the headings e.g. to use \code?\definecolor? you have to include the \code?xcolor? package with \code?\usepackage{xcolor}? in the preamble\\[0.5em]
-Available units for lengths and dimensions:\\
-	\begin{tabular}{@{}ll|ll|ll|ll@{}}
-		points & \code?pt? & millimeter & \code?mm? & inch & \code?in? & m width & \code?em?\\
-		pixel & \code?px? & centimeter & \code?cm? & pica & \code?pc? & x height & \code?ex?
-	\end{tabular}\\
-^^E^^L 

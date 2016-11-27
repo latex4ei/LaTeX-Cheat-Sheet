@@ -1,5 +1,0 @@
-
-	\subsection{Load Packages (they do all the magic)}
-		\cprotect\emphbox{Usage: \code?\usepackage[?\textit{opt, opt}\code!]{!\textit{package}\code!}!}
-		\code?\PassOptionsToPackage{?\textit{opt, opt}\code!}{!\textit{package}\code!}!
-^^E^^L 
